@@ -1,0 +1,122 @@
+.bg {
+  height: 100%;
+  color: #fbfbfc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  background-color: #557999;
+  max-width: 991px;
+  margin: auto;
+  background: url("https://c4.wallpaperflare.com/wallpaper/498/75/581/the-world-is-in-our-hands-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image {
+  margin-top: 90px;
+  height: 60.19%;
+}
+
+.firstBLock {
+  height: 38.25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boldTitle {
+  font-size: 28px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.secondBlock {
+  height: 42.6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.firstPageFooter {
+  height: 45%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PageButton {
+  -webkit-animation: fade-show 0.3s;
+          animation: fade-show 0.3s;
+  font-size: 20px;
+  border: none;
+  padding: 10px 45px;
+  color: #f7f7f7;
+  background-color: #2110c1;
+  border-radius: 8px;
+  margin-top: 90px;
+}
+
+.Pagetext {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: -136px;
+}
+
+.Pagetext span {
+  font-weight: bold;
+}
+
+@-webkit-keyframes fade-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.range_selector .css-14pt78w-MuiSlider-rail {
+  -webkit-box-shadow: 0px 0px 10px !important;
+          box-shadow: 0px 0px 10px !important;
+}
+/* # sourceMappingURL=FirstPage.module.css.map */
