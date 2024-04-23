@@ -1,3 +1,6 @@
+
+
+
 const fullArray = [
   {
     country: "Armenia",

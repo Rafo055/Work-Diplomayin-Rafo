@@ -5,6 +5,8 @@ import erevan from "../../pages/images/slider/erevan.jpg";
 import dilijan from "../../pages/images/slider/dilijan.jpg";
 import gyumri from "../../pages/images/slider/gyumri.jpg";
 import caxkadzor from "../../pages/images/slider/caxkadzor.jpg";
+import dilijann from "../../pages/images/slider/dilijann.jpg";
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,11 +15,12 @@ const Slider = () => {
   return (
     <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
       <SwiperSlide>
-        <img src={dilijan.src} />
+        <img src={dilijann.src} />
         <div
           style={{
             padding: "20px 16px 16px",
-            background: "rgb(217, 59, 48)",
+            background: "blue",
+
           }}
         >
           <div style={{ textAlign: "left", fontWeight: "bold" }}>Դիլիջան</div>
@@ -29,11 +32,11 @@ const Slider = () => {
         <div
           style={{
             padding: "20px 16px 16px",
-            background: "rgb(188, 26, 110)",
+            background: "blue",
           }}
         >
           <div style={{ textAlign: "left", fontWeight: "bold" }}>Երևան</div>
-          <div style={{ textAlign: "left", fontSize: "14px" }}>B 1 km</div>
+          <div style={{ textAlign: "left", fontSize: "14px" }}>1 km</div>
         </div>
       </SwiperSlide>
       <SwiperSlide>

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import css from "../styles/second/SecondPage.module.css";
+import styles from "../styles/data/Data.module.css";
 import img from "./images/Group-6.png";
 
 import Logo from "./images/Group-5.svg";
@@ -348,16 +349,15 @@ const SecondPage = () => {
                   {searchResults.map((result, index) => (
                     <div key={index}>
                       <h3>{result.type}</h3>
-                      <ul>
+                      <ul className={styles.Firstul}>
                         {result.places.map((place, idx) => (
                           <li key={idx}>
-                            <div className="place">
-                              {/* Place details */}
-                              <img src={place.imgSrc} alt={place.name} />
+                            <div className={styles.Firstdiv}>
+                              <img className={styles.Firstimg} src={place.imgSrc} alt={place.name} />
                               <div>
-                                <h4>{place.name}</h4>
-                                <p>{place.description}</p>
-                                <p>{place.address}</p>
+                                <h4 className={styles.Firstclass}>{place.name}</h4>
+                                <p className={styles.Firstdescription}>{place.description}</p>
+                                <p className={styles.Firstadress}>{place.address}</p>
                               </div>
                             </div>
                           </li>
